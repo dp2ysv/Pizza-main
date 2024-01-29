@@ -1,0 +1,287 @@
+/* 
+INDICE
+00 - reset
+01 - utilities
+02 - header
+03 - logo
+04 - footer
+05 - main
+*/
+
+/* 
+colore 1: #fcd757;
+colore 2: #fc7a57;
+colore testo: #5e5b52;
+*/
+
+
+/* 00-reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 01 -utilities*/
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #5e5b52;
+}
+
+/* 02 -header*/
+header nav {
+  background-color: #fcd757;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.logo {
+  text-transform: uppercase;
+  color: #fc7a57;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.discount {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+/* 03 */
+.jumbo {
+  width: 100%;
+  height: 600px;
+  background-image: url('assets/pizza-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.jumbo-txt {
+  background-color: #fc7a57;
+  padding: 20px 40px;
+  color: #000;
+  border: 5px solid white;
+}
+
+.jumbo-txt h1 {
+  font-size: 50px;
+}
+
+.jumbo-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbo-cta a {
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.cta {
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.cta-1 {
+  background-color: #fff;
+  color: #000;
+}
+
+.cta-2 {
+  background-color: #000;
+  color: #fff;
+}
+
+/* 04-Footer */
+.footer {
+  background-color: #fc7a57;
+  color: #5e5b52;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contact-info,
+.social-links {
+  margin-bottom: 10px;
+}
+
+
+.social-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 05 - main */
+
+section {
+  text-align: center;
+}
+
+
+.menu-board {
+  background-image: url('assets/lavagnasfondo.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  font-family: 'Permanent Marker', cursive;
+  padding: 20px;
+  border: 10px solid #7a6b5b;
+}
+
+.menu-board h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.menu-content {
+  padding: 20px;
+}
+
+
+.menu-content .categoria {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.menu-content .categoria h3 {
+  font-size: 2rem;
+}
+
+.menu-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu-content ul li {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+
+.glutinefree {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-basis: calc(33.333% - 20px);
+  margin-bottom: 20px;
+}
+
+.menu-specialità {
+  background-color: blanchedalmond;
+  text-align: center;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-specialità img {
+  max-width: 100px;
+
+  margin-bottom: 20px;
+}
+
+.menu-specialità h2 {
+  color: #000;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.menu-specialità p {
+  color: #555;
+  max-width: 600px;
+  margin: auto;
+}
+
+.aboutus {
+  background-color: #f3f3f3;
+  color: #333;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.aboutus h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prenota-section {
+  background-color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.prenota-form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.prenota-form label {
+  display: block;
+  margin-top: 20px;
+}
+
+.prenota-form input[type="text"],
+.prenota-form input[type="date"],
+.prenota-form input[type="time"],
+.prenota-form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.prenota-form input[type="submit"] {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #f90;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

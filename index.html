@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>PizzaDev</title>
+</head>
+
+<body>
+
+
+  <!-- Header -->
+  <header>
+    <!-- Navbar -->
+    <nav>
+      <div class="logo">
+        PizzaDev
+      </div>
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="#menu">menu</a>
+          </li>
+          <li>
+            <a href="#aboutus">chi siamo</a>
+          </li>
+          <li>
+            <a href="#prenota">prenota</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Banner sconto -->
+    <div class="discount">
+      ogni giovedì pizze al 30%
+    </div>
+  </header>
+
+  <!-- JUMBO -->
+  <div class="jumbo">
+    <div class="jumbo-txt">
+      <h1>La pizza del secolo</h1>
+      <div class="jumbo-cta">
+        <a href="#aboutus" class="cta cta-1">
+          <div>Scopri di più</div>
+        </a>
+        <a href="#prenota" class="cta cta-2">
+          <div>Prenota</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <main>
+
+    <section class="menu-board" id="menu">
+      <h2>Il nostro menu</h2>
+      <div class="menu-content">
+        <div class="categoria">
+          <h3>Antipasti</h3>
+          <ul>
+            <li>Bruschetta al Pomodoro</li>
+            <li>Carpaccio di Bresaola</li>
+            <li>Tagliere di salumi</li>
+            <li>Tagliere di formaggi</li>
+
+          </ul>
+        </div>
+        <div class="categoria">
+          <h3>Pizze</h3>
+          <ul>
+            <li>Margherita</li>
+            <li>Diavola</li>
+            <li>Marinara</li>
+            <li>Capricciosa</li>
+            <li>Crudaiola</li>
+
+          </ul>
+        </div>
+        <div class="categoria">
+          <h3>Bevande</h3>
+          <ul>
+            <li>Birra</li>
+            <li>Acqua</li>
+            <li>CocaCola</li>
+            <li>Fanta</li>
+            <li>Sprite</li>
+
+          </ul>
+        </div>
+        <div class="categoria">
+          <h3>Dolci</h3>
+          <ul>
+            <li>Tiramisu</li>
+            <li>Tartufo Nero</li>
+            <li>Tartufo Bianco</li>
+            <li>Cheesecake</li>
+
+
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+
+    <section class="menu-specialità">
+      <h2>Le nostre specialità</h2>
+      <p>Prova la nostra pizza senza glutine e lattosio</p>
+      <div class="glutinefree">
+
+
+        <img src="assets/senza glutina.jpeg" alt="Pizza senza glutine">
+
+
+
+      </div>
+    </section>
+
+    <section class="aboutus" id="aboutus">
+      <h2>Chi Siamo</h2>
+      <p>Fondato nel 2020, PizzaDev è nato dalla passione di tre amici per la cucina italiana.
+        La nostra missione è portare un pezzo di Italia in ogni casa, con ricette tradizionali
+        e ingredienti di alta qualità. Crediamo in una cucina che sia sia un'arte che una scienza,
+        ed è per questo che ogni pizza è fatta con amore e precisione.</p>
+
+      <p>
+        Venite a trovarci per assaporare la vera pizza napoletana, cotta nel nostro forno a legna
+        e preparata seguendo le antiche tradizioni.
+      </p>
+    </section>
+
+    <section id="prenota" class="prenota-section">
+      <h2>Prenota un Tavolo</h2>
+      <form class="prenota-form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data" required>
+
+        <label for="ora">Ora:</label>
+        <input type="time" id="ora" name="ora" required>
+
+        <label for="persone">Numero di Persone:</label>
+        <input type="number" id="persone" name="persone" required min="1">
+
+        <input type="submit" value="Prenota Ora">
+      </form>
+    </section>
+
+
+
+
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="contact-info">
+      <p>Contattaci all'email: info@pizzadev.it</p>
+      <p>Telefono: 123 456 7890</p>
+    </div>
+    <div class="social-links">
+
+      <a href="link-to-facebook" target="_blank">Facebook</a>
+      <a href="link-to-instagram" target="_blank">Instagram</a>
+
+    </div>
+    <p>© 2024 PizzaDev. Tutti i diritti riservati.</p>
+  </footer>
+</body>
+
+</html>
